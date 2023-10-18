@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("KimiHero2CroppedGrad.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+.TopMenu{
+    height: 5%;
+    position: fixed;
+}
+
+.MovieHeaderHero{
+    height: 67%;
+    display: flex;
+    align-items: flex-end;
+}
+.MovieTitle{
+    width: 580px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.nav{
+    padding-left: 30px;
+    text-decoration: none;
+}
+.navProfile{
+    right: 0px;
+    cursor: pointer;
+}
+.navProfilePic{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.footfadetext{
+    opacity: 67%;
+    font-size: 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+
+
+
+.column{
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}

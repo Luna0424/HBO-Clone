@@ -1,0 +1,210 @@
+<html>
+<head>
+    <title>Kimi &#8226; HBO Max</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="TopMenu">
+        <div class="nav">
+            <img style="position: absolute; width: 30px; top: 20px" src="bars-solid.svg" draggable="false">
+            <p style="position: absolute; top: 12px; margin-left: 50px">Movies</p>
+            <p style="position: absolute; top: 12px; margin-left: 125px">Series</p>
+        </div>
+        <img onclick="window.location.href='index.html'" style="height: 25px;transform: translate(45vw, 10px);cursor: pointer;" src="HBOMAX.png" draggable="false">
+        <div class="navProfile">
+            <p onclick="login();" id="navProfileNameID" style="position: absolute; height: 25px;transform: translate(95vw, 0); top: 1px;">Log In</p>
+            <img onclick="login();" class="navProfilePic" id="navProfilePicID" style="transform: translate(92vw, 0);top: 20px;display: none;" src="" draggable="false">
+            <img src="searchIcon.png" style="width: 25px;height: 25px;position: fixed; transform: translate(90vw, 0); top: 23px;">
+        </div>
+    </div>
+
+    <div class="MovieHeaderHero">
+        <img class="MovieTitle" src="KimiLogo.png" draggable="false">
+        <span style="position: absolute; padding-left: 20px;">1 HR 29 MIN | 16+ | 2022 |  4K UHD</span>
+    </div>
+    <div class="playMenu">
+        <img onclick="window.location = 'https://play.hbomax.com/page/urn:hbo:page:GYeB2LgKJ1cIOjAEAAABQ:type:feature'" onmouseover="playButtonMouseOver();" onmouseout="playButtonMouseNotOver();" id="playButtonID" style="width: 50px; height: 50px; margin-left: 40px; margin-top: 20px;cursor: pointer;" src="PlayButton-white.png">
+        <img onclick="myList();" onmouseover="listButtonMouseOver();" onmouseout="listButtonMouseNotOver();"  id="AddListID" style="position: absolute; width: 40px; height: 40px; margin-top: 23px; margin-left: 25px;cursor: pointer;" src="x-blank.png">
+    </div>
+    <br>
+    <p style="padding-left: 25px;">The WFH tech analyst hears something horrific in a data stream.<br><br>HBO Max present Academy Award-winning director Steven Soderbergh's original thriller "KIMI," starring Zoë Kravitz</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <strong><h3 style="padding-left: 10px;">More Like This</h3></strong>
+    <div style="display: flex;">
+        <img style="padding-left: 10px;" src="Movie-1.png" draggable="false">
+        <img style="padding-left: 10px;" src="Movie-2.png" draggable="false">
+        <img style="padding-left: 10px;" src="Movie-3.png" draggable="false">
+        <img style="padding-left: 10px;" src="Movie-4.png" draggable="false">
+        <img style="padding-left: 10px;" src="Movie-5.png" draggable="false">
+        <img style="padding-left: 10px;" src="Movie-6.png" draggable="false">
+        <img style="padding-left: 10px;" src="Movie-7.png" draggable="false">
+        <img style="padding-left: 10px;" src="Movie-8.png" draggable="false">
+        <img style="padding-left: 10px;" src="Movie-9.png" draggable="false">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="footer">
+        <div class="row">
+            <div class="column">
+                <h3 style="padding-left: 10px;">Cast & Crew</h3>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 8px;">Angela Childs</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 8px;">Zoë Kravitz</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 8px;">Natalie</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 8px;">Rita Wilson</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Terry Hughes</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Byron Bowers</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Antonio Rivas</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Jaime Camil</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Samantha Gerrity</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Erika Christensen</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Bradley Hasling</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Derek DelGaudio</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Angela's Mother</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Robin Givens</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Tall Thug</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Charles Halford</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Kevin </h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Devin Ratrey</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Glasses Thug</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Jacob Vargas</h3>
+                    </div>
+                </div>
+                <h3 style="padding-left: 10px;">Producers</h3>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Producer</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Michael Polaire</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Producer</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">David Koepp</h3>
+                    </div>
+                </div>
+                <h3 style="padding-left: 10px;">Directors</h3>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Dircector</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Steven Soderbergh</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <strong><h3 style="padding-left: 10px;">Writers</h3></strong>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">Screenplay</h3>
+                    </div>
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">David Koepp</h3>
+                    </div>
+                </div>
+                <strong><h3 style="padding-left: 10px;">Rating Information</h3></strong>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="footfadetext" style="padding-left: 10px;">16+</h3>
+                    </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="display: flex; padding-left: 20px;">
+<img style="height: 25px; opacity: 60%; padding-left: 10px;" src="youtube-icon.png">
+<img style="height: 25px; opacity: 60%; padding-left: 10px;" src="twitter-icon.png">
+<img style="height: 25px; opacity: 60%; padding-left: 10px;" src="facebook-icon.png">
+<img style="height: 25px; opacity: 60%; padding-left: 10px;" src="instagram-icon.png">
+</div>
+</body>
+</html>
